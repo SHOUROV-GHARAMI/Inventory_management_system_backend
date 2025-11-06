@@ -1,0 +1,121 @@
+# Build outputs# Ignore build outputs
+
+bin//bin/
+
+obj//obj/
+
+out/**/bin/
+
+publish/**/obj/
+
+
+
+# User-specific files# Visual Studio
+
+*.user.vs/
+
+*.userosscache*.user
+
+*.suo*.suo
+
+*.userprefs*.userosscache
+
+*.sln.docstates
+
+# IDE - Visual Studio
+
+.vs/# Rider
+
+*.sln.docstates.idea/
+
+*.VisualState.xml
+
+# VS Code
+
+# IDE - JetBrains Rider.vscode/
+
+.idea/
+
+*.sln.iml# Publish output
+
+*.DotSettings.user/publish/
+
+/wwwroot/
+
+# IDE - VS Code
+
+.vscode/# Database files
+
+*.code-workspace*.mdf
+
+*.ldf
+
+# AI Assistant files (GitHub Copilot, Cursor, etc.)*.db
+
+.cursorrules
+
+.cursorignore# Secrets & environment files
+
+.github/copilot/appsettings.*.Development.json
+
+.copilot/.env
+
+.aider*secrets.json
+
+*.copilot
+
+# Logs and telemetry
+
+# OS files*.log
+
+Thumbs.db
+
+.DS_Store# NuGet packages
+
+Desktop.ini*.nupkg
+
+# OS files
+
+# Database filesThumbs.db
+
+*.db.DS_Store
+
+*.mdf
+*.ldf
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+appsettings.*.Development.json
+*.pfx
+*.key
+
+# NuGet packages (restore on build)
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Publish profiles
+*.pubxml
+*.publishproj
+
+# Azure/deployment
+*.azurePubxml
+PublishScripts/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
